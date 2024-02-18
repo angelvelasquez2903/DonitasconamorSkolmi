@@ -1,0 +1,142 @@
+body{
+    font-family: 'Times New Roman', Times, serif;
+    margin: 0;
+    }
+    
+    header{
+        display: flex;
+    height: 80px;
+    background-color: slategray;
+        justify-content: space-between;
+    align-items: center;
+    margin-right: 10px;
+    border-bottom: 1px solid rgb(65, 77, 88);
+    }
+    
+    
+    .logo{
+    display: flex;
+    }
+    
+    .nav-link{
+    color: rgb(75, 75, 75);
+    font-size: 18px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    padding-right: 10px;
+    }
+    
+    .nav-link:hover{
+    color: #b6b6b6;
+    }
+    
+    .redes-container{
+    display: flex;
+    height: 40px;
+    align-items: center;
+    justify-content: center;
+    padding: 0 15px;
+    }
+    
+    .redes-container ul li{
+        display: inline-block;
+        margin: 0 5px;
+        width: 50px;
+        height: 50px;
+        text-align: center;
+    }
+    
+    .redes-container ul li a{
+    display: block;
+    padding: 0 10px;
+    background-color: rgb(43, 43, 43);
+    color: aliceblue;
+    line-height: 50px;
+    font-size: 18px;
+    box-shadow: 0 3px 5px 0px rgb(48, 47, 47);
+    transition: .2s;
+    }
+    
+    .redes-container ul:hover a{
+        filter: blur(2px);
+    }
+    
+    .redes-container ul li a:hover{
+    transform: translateY(-3px); scale(1.05);
+    box-shadow: 0 5px 5px 0px rgb(43,43,43);
+    filter: none;
+    }
+    
+    .footer{
+    background-color: rgb(112, 128, 144);
+    padding: 30px 0;
+    display: flex;
+    flex-wrap: wrap;
+    }
+    
+    .footer ul h4{
+    font-size: 25px;
+    color: aliceblue;
+    margin-bottom: 30px;
+    border-bottom: 2px solid aliceblue;
+    display: inline-block;
+    }
+    
+    
+    .title{
+    margin-bottom: 35px;
+    }
+    
+    .grupo-2{
+    position: relative;
+    color: aliceblue;
+    }
+    
+    .table tr th{
+    color: rgb(255, 255, 255);
+    background-color: dimgray;
+    padding: 10px;
+    }
+     
+    table tr, th, td{
+    font-size: 20px;
+    font-family: 'Times New Roman', Times, serif;
+    border-collapse: collapse;
+    }
+    
+    table tr td{
+    border: solid black 1px;
+    height: 25px;
+    }
+    
+    table{
+    width: 700px;
+    background-color: #fff;
+    margin-left:60px;
+    }
+    
+    
+    #Esclavas{
+        margin-left: 60px;
+        margin-bottom: 7px;
+    }
+    #Placas{
+    margin-left: 80px;
+    margin-bottom: 7px;
+    }
+    #Monedas{
+        margin-left: 100px;
+        margin-bottom: 7px;
+       
+    }
+    
+    .description{
+    margin-left: 5px;
+    }
+    
+    #elegirnos{
+    margin-left: 10px;
+    }
+    
+    #loguito{
+        margin-left: 15px;   
+    }

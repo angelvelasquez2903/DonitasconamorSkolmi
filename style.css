@@ -1,0 +1,166 @@
+body{
+    font-family: 'Times New Roman', Times, serif;
+    margin: 0;
+    }
+    
+    header{
+background-image: url(definitivo.jpg);
+background-size: cover;
+height: 130px;
+display: flex;
+justify-content: space-between;
+align-items: center;
+margin-right: 1px;
+border-bottom: 1px solid rgb(255, 255, 255);
+    }
+    
+    
+    .logo{
+    display: flex;
+    margin-left:50px;
+    align-items: center;
+    color: rgb(255, 255, 255);   
+    font-size: 30px;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    text-shadow: 5px 3px 6px rgb(243, 196, 255);
+    }
+
+    .logo img{
+        height: 120px;
+        margin-right: 50px;
+            }
+    
+    .nav-link{
+    color: rgb(255, 255, 255);
+    font-size: 18px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    padding-right: 10px;
+    font-family: 600;
+    text-shadow: 5px 3px 6px rgb(243, 196, 255);
+
+    }
+    
+    .nav-link:hover{
+    color: #9d7da5;
+    }
+    
+    .redes-container{
+    display: flex;
+    height: 40px;
+    align-items: center;
+    justify-content: center;
+    padding: 0 15px;
+    }
+    
+    .redes-container ul li{
+        display: inline-block;
+        margin: 0 5px;
+        width: 50px;
+        height: 50px;
+        text-align: center;
+        justify-content: center;
+    }
+    
+    .redes-container ul li a{
+    display: block;
+    padding: 0 20px;
+    background-color: rgb(241, 187, 232);
+    color: aliceblue;
+    line-height: 50px;
+    font-size: 20px;
+    box-shadow: 0 3px 5px 0px rgb(253, 253, 253);
+    transition: .2s;
+    justify-content:center;
+    border-radius: 50%;
+    opacity: 0.9;
+    text-shadow: 5px 3px 6px rgb(243, 196, 255);
+    }
+    
+    .redes-container ul:hover a{
+        filter: blur(2px);
+    }
+    
+    .redes-container ul li a:hover{
+    transform: translateY(-3px); scale(1.05);
+    box-shadow: 0 5px 5px 0px rgb(90, 66, 104);
+    filter: none;
+    }
+    
+#Inicio{
+    color: rgb(0, 0, 0);   
+    margin-left: 2px;
+    text-shadow: 5px 3px 6px rgb(235, 197, 240);
+
+}
+
+
+
+     #imagen{
+        margin-right: 100px;   border: 70px;  margin-top: 70pxf;  border: 5px solid pink; margin-top: 50px; border-radius: 10px;}
+
+    
+        #description{
+        margin-left: 5px;
+        }
+        
+        #elegirnos{
+        margin-left: 2px;
+        text-shadow: 5px 3px 6px rgb(235, 197, 240);
+        color: rgb(0, 0, 0);   
+        }
+        
+        #loguito{
+            margin-left: 15px;   
+        }
+
+    .footer{
+   background-image:url(definitivo.jpg) ;
+    padding: 25px 0;
+    display: flex;
+    flex-wrap: wrap;
+    border-top: 1px solid rgb(255, 255, 255);;
+    }
+    
+    .footer ul h4{
+    font-size: 25px;
+    color: aliceblue;
+    margin-bottom: 30px;
+    border-bottom: 2px solid rgb(255, 255, 255);
+    display: inline-block;
+    }
+    
+    
+    .title{
+    margin-bottom: 35px;
+    }
+
+    .Pago{
+ margin-left: 130px;
+
+    }
+    
+    .footerBotton p{
+    color: white;
+    text-shadow: 5px 3px 6px rgb(243, 196, 255);
+ 
+    }
+
+    .footerBotton{
+        background-color: #b991c5;
+    text-align: center;
+        padding: 10px;
+    }
+
+    .designer{
+opacity: 0.7;
+text-transform: uppercase;
+letter-spacing: 1px;
+font-weight: 400;
+margin: 0px 5px;
+    }
+
+.enlace-1{
+    text-shadow: 5px 3px 6px rgb(243, 196, 255);
+    color: rgb(206, 120, 228);
+margin-left: 1000px;
+}
